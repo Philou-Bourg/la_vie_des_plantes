@@ -1,5 +1,36 @@
-wp-config.php 
-wp-content/uploads/ 
-wp-content/cache/ 
-node_modules/ 
-.env 
+Thumbs.db
+desktop.ini
+
+# Fichiers système
+.DS_Store
+*.log
+*.tmp
+
+# Configurations de l'environnement local
+wp-config.php
+.htaccess
+
+# Exclure les fichiers de cache
+cache/
+*.cache
+
+# Répertoire de téléchargement (uploads)
+wp-content/uploads/
+
+# Répertoires ou fichiers de travail inutiles
+wp-content/upgrade/
+wp-content/debug.log
+wp-content/wflogs/
+
+# Autres fichiers potentiellement sensibles ou inutiles
+.env
+*.bak
+*.swp
+.idea/
+.vscode/
+node_modules/
+npm-debug.log
+
+# Exclure tout sauf le thème actif (flower-shop-lite)
+!wp-content/themes/flower-shop-lite/
+wp-content/themes/*
