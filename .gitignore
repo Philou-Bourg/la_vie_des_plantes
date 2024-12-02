@@ -1,7 +1,6 @@
+# Fichiers système
 Thumbs.db
 desktop.ini
-
-# Fichiers système
 .DS_Store
 *.log
 *.tmp
@@ -34,3 +33,6 @@ npm-debug.log
 # Exclure tout sauf le thème actif (flower-shop-lite)
 !wp-content/themes/flower-shop-lite/
 wp-content/themes/*
+
+# Inclure le fichier SQL exporté
+!database/*.sql
