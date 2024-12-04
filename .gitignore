@@ -6,7 +6,6 @@ desktop.ini
 *.tmp
 
 # Configurations de l'environnement local
-wp-config.php
 .htaccess
 
 # Exclure les fichiers de cache
@@ -29,10 +28,6 @@ wp-content/wflogs/
 .vscode/
 node_modules/
 npm-debug.log
-
-# Exclure tout sauf le thème actif (flower-shop-lite)
-!wp-content/themes/flower-shop-lite/
-wp-content/themes/*
 
 # Inclure le fichier SQL exporté
 !database/*.sql
